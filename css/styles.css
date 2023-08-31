@@ -62,6 +62,8 @@ body {
 .adress {
   font-style: normal;
   display: flex;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .adress-list {
@@ -146,6 +148,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .info:hover,
@@ -156,7 +159,8 @@ body {
 /* header finish */
 /* HERO1start*/
 .hero-section {
-  background: #2e2f42;
+  background: #604ba8;
+  background-image: url("../images/office\ .jpg");
   margin-left: auto;
   margin-right: auto;
   width: 1440px;
@@ -258,7 +262,6 @@ body {
 }
 
 .team-item {
-
   width: calc((100% - 72px) / 4);
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
