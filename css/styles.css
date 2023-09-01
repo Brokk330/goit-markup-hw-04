@@ -159,13 +159,13 @@ body {
 /* header finish */
 /* HERO1start*/
 .hero-section {
-  background:#2E2F42;;
+  background: #2e2f42;
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office.jpg);
+    url(../images/pic.jpg);
   margin-left: auto;
   margin-right: auto;
   width: 1440px;
@@ -223,6 +223,30 @@ body {
 
   margin-bottom: 8px;
 }
+.topic-svg {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 100px;
+  margin-bottom: 8px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+}
+.topic-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 8px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+}
 
 .description {
   color: #434455;
@@ -242,6 +266,8 @@ body {
   display: flex;
   gap: 24px;
   list-style-type: none;
+  justify-content: center;
+       
 }
 
 .advantage-item {
