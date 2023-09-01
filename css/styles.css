@@ -62,6 +62,7 @@ body {
 .adress {
   font-style: normal;
   display: flex;
+  margin-left: auto;
   list-style-type: none;
   text-decoration: none;
 }
@@ -74,7 +75,6 @@ body {
 .adress-link {
   display: flex;
   gap: 40px;
-  margin-left: 100px;
 }
 
 .link-link {
@@ -91,7 +91,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 24px 0 24px 156px;
+  padding: 24px 0 24px;
 }
 
 .logo-studio {
@@ -159,8 +159,13 @@ body {
 /* header finish */
 /* HERO1start*/
 .hero-section {
-  background: #604ba8;
-  background-image: url("../images/office\ .jpg");
+  background:#2E2F42;;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office.jpg);
   margin-left: auto;
   margin-right: auto;
   width: 1440px;
@@ -171,7 +176,7 @@ body {
 
 .hero-title {
   max-width: 496px;
-
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
   color: #fff;
@@ -215,7 +220,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  padding-top: 32px;
+
   margin-bottom: 8px;
 }
 
@@ -252,6 +257,7 @@ body {
 
 .team-title {
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .team-list {
@@ -323,10 +329,6 @@ body {
   border-radius: 0 0 4px 4px;
   text-decoration: none;
   list-style-type: none;
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
@@ -379,6 +381,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 .logo-studio-footer {
@@ -392,6 +395,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 16px;
   display: inline-block;
+  text-decoration: none;
 }
 
 .footer {
