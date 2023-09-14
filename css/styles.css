@@ -35,6 +35,9 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
 }
 
 .navigation {
