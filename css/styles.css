@@ -186,9 +186,6 @@ body {
 /* HERO1start*/
 .hero-section {
   max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: center;
   background: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -202,6 +199,9 @@ body {
   height: 600px;
   flex-shrink: 0;
   padding: 188px 0 188px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
 }
 
 .hero-title {
