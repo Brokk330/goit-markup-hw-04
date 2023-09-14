@@ -222,6 +222,7 @@ body {
 }
 
 .push-button {
+  background-size: cover;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
