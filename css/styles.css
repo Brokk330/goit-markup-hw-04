@@ -185,6 +185,10 @@ body {
 /* header finish */
 /* HERO1start*/
 .hero-section {
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -229,6 +233,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .push-button:hover {
