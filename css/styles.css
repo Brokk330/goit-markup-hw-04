@@ -388,7 +388,7 @@ body {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 24px;  
+ gap: 24px;
 }
 /* 24 */
 .link-social {
