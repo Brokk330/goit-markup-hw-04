@@ -388,7 +388,7 @@ body {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .link-social {
@@ -590,7 +590,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-footer{
-  gap: 24px;
+  gap: 16px;
 }
 
 h1,
