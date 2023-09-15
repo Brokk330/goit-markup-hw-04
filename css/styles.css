@@ -393,6 +393,7 @@ body {
 .link-social-list {
   width: 40px;
   height: 40px;
+  gap: 16px;
 }
 
 .link-social-link {
@@ -407,7 +408,7 @@ body {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 /* PORTFOLIO */
