@@ -608,19 +608,15 @@ ol {
   padding-left: 0;
   list-style-type: none;
 }
-
 .list {
   list-style-type: none;
 }
-
 .link {
   text-decoration: none;
 }
-
 img {
   display: block;
 }
-
 a {
   display: block;
   text-decoration: none;
