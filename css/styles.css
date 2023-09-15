@@ -384,13 +384,13 @@ body {
   letter-spacing: 0.32px;
   margin-bottom: 8px;
 }
-
+/* 24 */
 .socials {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;  
 }
-
+/* 24 */
 .link-social {
   width: 100%;
   height: 100%;
